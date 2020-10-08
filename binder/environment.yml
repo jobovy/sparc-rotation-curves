@@ -2,7 +2,7 @@ name: galdyncourse
 channels:
   - conda-forge
 dependencies:
-  - python=3.7
+  - python=3.8
   - ipython
   - jupyter
   - numpy
@@ -11,8 +11,7 @@ dependencies:
   - pyqt
   - pandas
   - pip
-  - pandoc=2.1.3
   - conda-forge::astropy>=2
-  - conda-forge::galpy
   - pip:
     - astroquery
+    - git+git://github.com/jobovy/galpy.git#egg=galpy
